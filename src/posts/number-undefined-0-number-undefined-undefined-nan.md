@@ -10,7 +10,7 @@ there will be some abstract operations inside engine and what it does is , it wi
 In JS if we try to stringify empty array then it will return empty array removing the brackets and if an array has value undefined/null then it will still return an empty string and if we try to convert empty string to number then we will get `0` as output.
 
 so here what goes under hood is
-```
+```js
 const arr = [undefined];
  // will be now '' and empty string will go to Number('') and we will get 0
 
